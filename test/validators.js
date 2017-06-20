@@ -1785,8 +1785,10 @@ describe('Validators', function () {
         'prefix6234917882863855',
         '623491788middle2863855',
         '6234917882863855suffix',
+        '375556917985515999999993',
+        '899999996234917882863855',
       ],
-    });
+            });
   });
 
   it('should validate ISINs', function () {
