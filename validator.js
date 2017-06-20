@@ -834,7 +834,7 @@
 
       function isCreditCard(str) {
         assertString(str);
-        var sanitized = str.replace(/[^0-9]+/g, '');
+        var sanitized = str.replace(/[- ]+/g, '');
         if (!creditCard.test(sanitized)) {
           return false;
         }
