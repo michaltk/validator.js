@@ -1788,7 +1788,7 @@ describe('Validators', function () {
         '375556917985515999999993',
         '899999996234917882863855',
       ],
-            });
+    });
   });
 
   it('should validate ISINs', function () {
